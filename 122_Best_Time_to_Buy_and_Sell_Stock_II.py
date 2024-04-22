@@ -44,7 +44,7 @@ class Solution:
             curr = prices[i]
         
         return max_profit
-        # The main part is we can buy the stock and sell it on the same day which means it is also possible that we sell
+        # The main part that is missing in the 1st approach for which the 1st approch is wrong is we can buy the stock and sell it on the same day which means it is also possible that we sell
         # it the same day and then buy it. For example we have bought it yesterday and today we will sell it and then we
         # will again but that today and sell it tomorrow if tomorrow is greater than today and so does today is greater
         # than yesterday.
