@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         # The main catch is here the statement in the question saying that return the most occuring element which is

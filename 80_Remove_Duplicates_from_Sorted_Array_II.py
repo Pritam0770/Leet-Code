@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         # [1,1,2,2,2,2,3,3]
